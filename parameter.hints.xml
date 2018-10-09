@@ -1,0 +1,14 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="TypeScript" />
+      <blacklist language="Java">
+        <added pattern="com.vocalink.ips.bo.at.reporting.CustomLog4J.logInfo(logger,s,path,str)" />
+        <added pattern="org.apache.commons.configuration2.ImmutableConfiguration.getString(key)" />
+      </blacklist>
+      <blacklist language="Groovy" />
+      <blacklist language="Kotlin" />
+    </blacklists>
+    <option id="java.multiple.params.same.type" value="true" />
+  </component>
+</application>
